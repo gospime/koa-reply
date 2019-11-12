@@ -1,2 +1,2 @@
-# Result container
-Container to keep data for response
+# Koa reply result
+renerate result and send to customer
