@@ -1,2 +1,2 @@
 # Koa reply result
-renerate result and send to customer
+Generate result and send to customer
