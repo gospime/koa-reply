@@ -1,0 +1,40 @@
+{
+  "name": "@gospime/koa-reply",
+  "version": "1.0.0",
+  "description": "Generate result and send to customer",
+  "keywords": [
+    "gospime",
+    "reply",
+    "response",
+    "result"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install && npm audit fix",
+    "up": "npm update",
+    "check": "npm outdated",
+    "upgrade": "npm run up && npm run check && npm run build",
+    "push-version": "standard-version",
+    "ls-g": "npm list -g --depth=0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gospime/koa-reply.git"
+  },
+  "author": "Oleg Kravchuk <oleg.kravchuk@gospime.com> (https://gospime.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gospime/koa-reply/issues"
+  },
+  "homepage": "https://github.com/gospime/koa-reply#readme",
+  "devDependencies": {
+    "standard-version": "^7.0.0"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "dependencies": {
+    "@gospime/result-container": "^1.1.0",
+    "debug": "^4.1.1"
+  }
+}
