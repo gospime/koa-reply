@@ -23,7 +23,7 @@ const parseError = (error/*: BoomifiedError*/ = null, context) => {
   if (error) {
     debug('Catched error: ', error);
 
-    if (typeof context.log === 'object' && typeof content.log.error === 'function') {
+    if (typeof context.log === 'object' && typeof context.log.error === 'function') {
       context.log.error(error);
     } else {
       context.error(error);
