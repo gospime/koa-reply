@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.5](https://github.com/gospime/koa-reply/compare/v1.1.4...v1.1.5) (2019-11-20)
+
+
+### Bug Fixes
+
+* corrected critical bug - undefined variable ([8457618](https://github.com/gospime/koa-reply/commit/8457618bed609c3cf79f464302107ed131ecb966))
+
 ### [1.1.4](https://github.com/gospime/koa-reply/compare/v1.1.3...v1.1.4) (2019-11-12)
 
 ### [1.1.3](https://github.com/gospime/koa-reply/compare/v1.1.2...v1.1.3) (2019-11-12)
