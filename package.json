@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/gospime/koa-reply#readme",
   "devDependencies": {
-    "standard-version": "^7.0.1"
+    "standard-version": "^7.1.0"
   },
   "engines": {
     "node": ">=10.0.0"
@@ -37,5 +37,8 @@
   "dependencies": {
     "@gospime/result-container": "^1.1.0",
     "debug": "^4.1.1"
+  },
+  "optionalDependencies": {
+    "minimist": "^1.2.5"
   }
 }
