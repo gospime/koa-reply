@@ -35,7 +35,6 @@
     "node": ">=10.0.0"
   },
   "dependencies": {
-    "@gospime/result-container": "^1.1.0",
     "debug": "^4.1.1"
   },
   "optionalDependencies": {

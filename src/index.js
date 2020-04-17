@@ -1,4 +1,3 @@
-const ResultContainer = require('@gospime/result-container');
 const debug = require('debug')('@gospime/koa-reply');
 
 /*
@@ -61,9 +60,17 @@ module.exports = async (context, next) => {
       }
     }
 
-    // container data
-    const cData = { statusCode, message, payload };
-    const result = new ResultContainer(cData).get();
+    statusCode = parseInt(statusCode) || 200;
+
+    if (!message || typeof message !== 'string') {
+      message = 'Successfully completed';
+    }
+
+    if (!payload || typeof payload !== 'object') {
+      payload = null;
+    }
+
+    const result = { statusCode, message, payload };
 
     debug('Result:', result);
 
