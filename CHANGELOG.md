@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.7](https://github.com/gospime/koa-reply/compare/v1.1.6...v1.1.7) (2020-04-17)
+
 ### [1.1.6](https://github.com/gospime/koa-reply/compare/v1.1.5...v1.1.6) (2020-03-21)
 
 ### [1.1.5](https://github.com/gospime/koa-reply/compare/v1.1.4...v1.1.5) (2019-11-20)
